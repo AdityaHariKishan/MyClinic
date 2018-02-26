@@ -1,0 +1,96 @@
+<resources>
+    <string name="geo_api_key">AIzaSyC9bRCU6cuu-XWUkbTheC0135crVvc7Oj0</string>
+    <string name="app_name">عيادة التطبيقات</string>
+    <string name="process_with_Data">مع تجهيز البيانات ..</string>
+    <string name="no_internet_connection">الرجاء الاتصال مع الانترنت العمل</string>
+    <!-- LOGIN SCREEM -->
+    <string name="create_account">انشئ حساب</string>
+    <string name="createaccount_yourfirstname">اسمك الكامل</string>
+    <string name="createaccount_yourphone">هاتفك</string>
+    <string name="createaccount_emailaddress">عنوان البريد الإلكتروني</string>
+    <string name="createaccount_createpassword">إنشاء كلمة المرور</string>
+    <string name="createaccount_termsandprivacypolicy">قبل التوقيع أو في لعيادة التطبيقات، يمكنك قبول</string>
+    <string name="createaccount_our">لنا</string>
+    <string name="createaccount_terms">شروط</string>
+    <string name="createaccount_and">و</string>
+    <string name="createaccount_privacypolicy">سياسة الخصوصية</string>
+    <string name="createaccount_next">التالى</string>
+    <string name="login_now">تسجيل الدخول الآن</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="signin_emailaddress">عنوان البريد الإلكتروني</string>
+    <string name="signin_password">كلمه السر</string>
+    <string name="signin_forgotmypassword">نسيت كلمة المرور</string>
+    <string name="register_new">تسجيل مستخدم جديد</string>
+    <!-- END LOGIN SCREEN -->
+
+    <!-- MENU LIST -->
+    <string name="menu_appointment">موعد الكتاب</string>
+    <string name="menu_doctor_info">معلومات الطبيب</string>
+    <string name="menu_ask_doct">اطلب الطبيب</string>
+    <string name="menu_get_contact">الحصول على الاتصال بنا</string>
+    <string name="menu_tips">نصائح صحية</string>
+    <string name="menu_account">حسابي</string>
+    <!-- END MENU LIST -->
+
+    <!-- Appointment -->
+    <string name="tab_morning">صباح</string>
+    <string name="tab_afternoon">بعد الظهر</string>
+    <string name="tab_evening">مساء</string>
+    <string name="clinic_fee">رسوم العيادة</string>
+    <string name="patient_contact">تفاصيل الاتصال المريض</string>
+    <string name="health_tips">نصائح صحية</string>
+    <string name="total_amount">الكلفة الاجماليه</string>
+    <string name="tap_to_continue">إضغط للإستمرار</string>
+    <string name="confirm_n_book">تأكيد وتعيين كتاب</string>
+    <string name="already_booked">الوقت حجزت مسبقا</string>
+    <string name="title_activity_doctor_info">DoctorInfoActivity</string>
+
+    <string name="action_settings">إعدادات</string>
+    <!-- Appointment -->
+
+    <!-- Doctor Info -->
+    <string name="doctor_degree">الدرجة العلمية</string>
+    <string name="doctor_speciality">تخصص</string>
+    <string name="doctor_phone">هاتف</string>
+    <string name="tab_aboutus">معلومات عنا</string>
+    <string name="tab_services">خدمات</string>
+    <string name="tab_photos">الصور</string>
+    <string name="tab_reviews">استعراض</string>
+    <string name="doctor_indo">طبيب:</string>
+    <string name="consultant_fees">رسوم مستشار</string>
+
+    <string name="address">عنوان :</string>
+    <string name="phone">هاتف :</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="add_review">إضافة مراجعة</string>
+    <string name="send">إرسال</string>
+    <string name="valid_required_email">البريد الإلكتروني (مطلوب</string>
+    <string name="valid_email">إدخال بريد إلكتروني صحيح</string>
+    <string name="valid_required_password">كلمة المرور مطلوبة</string>
+    <string name="valid_required_fullname">الاسم الكامل المطلوب</string>
+    <string name="valid_required_phone">الهاتف المطلوب</string>
+    <string name="valid_required_current_password">مطلوب كلمة المرور الحالية</string>
+    <string name="valid_required_new_password">مطلوب كلمة السر الجديدة</string>
+    <string name="valid_not_match">إعادة إدخال كلمة المرور غير مطابقة</string>
+    <string name="update_profile">تحديث الملف</string>
+    <string name="change_password">تغيير كلمة السر</string>
+    <string name="my_appointments">تعييني</string>
+    <string name="update">تحديث</string>
+    <string name="profile_update_success">تم تحديث الملف الشخصي بنجاح</string>
+
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="cur_password">كلمة السر الحالية</string>
+    <string name="re_password">إعادة إدخال كلمة المرور</string>
+    <string name="cancel_confirmation">هل أنت متأكد من إلغاء التعيين؟</string>
+    <string name="fire">تؤكد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="our_services">خدماتنا</string>
+    <string name="clinic_photos">عيادة صور</string>
+    <string name="action_logout">الخروج</string>
+
+    <string name="en_language_preference">تفضيلات اللغة</string>
+    <string name="en_select_your_preferred_language">اختر لغة تفضيلك</string>
+
+    <string name="material">مادة</string>
+    <string name="method">طريقة</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_services"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.clinicapp.ServicesActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/light_gray"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/clinic_fee"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/clinicfees"/>
+    </LinearLayout>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/servicelist"
+    android:layout_above="@+id/bottomPanel"
+    android:layout_below="@+id/topPanel" />
+    <RelativeLayout
+        android:id="@+id/bottomPanel"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/tottit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_amount"
+            android:textColor="@color/text_whilte"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/totlaAmount"
+            android:text="0.0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/tottit"
+            android:textColor="@color/text_whilte"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_to_continue"
+            android:textColor="@color/light_gray"
+            android:layout_alignParentRight= "true"/>
+    </RelativeLayout>
+</RelativeLayout>

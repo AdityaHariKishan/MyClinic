@@ -1,0 +1,95 @@
+<resources>
+    <string name="geo_api_key">AIzaSyC9bRCU6cuu-XWUkbTheC0135crVvc7Oj0</string>
+    <string name="app_name">Clinic App</string>
+    <string name="process_with_Data">Processing with data..</string>
+    <string name="no_internet_connection">Please connect with working internet</string>
+    <!-- LOGIN SCREEM -->
+    <string name="create_account">Create an Account</string>
+    <string name="createaccount_yourfirstname">Your full name</string>
+    <string name="createaccount_yourphone">Your phone</string>
+    <string name="createaccount_emailaddress">Email address</string>
+    <string name="createaccount_createpassword">Create password</string>
+    <string name="createaccount_termsandprivacypolicy">By signing or in to Clinic App, you accept</string>
+    <string name="createaccount_our">our</string>
+    <string name="createaccount_terms">Terms</string>
+    <string name="createaccount_and">and</string>
+    <string name="createaccount_privacypolicy">Privacy Policy</string>
+    <string name="createaccount_next">Next</string>
+    <string name="login_now">Login Now</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signin_emailaddress">Email address</string>
+    <string name="signin_password">Password</string>
+    <string name="signin_forgotmypassword">Forgot my password</string>
+    <string name="register_new">Register new User</string>
+    <!-- END LOGIN SCREEN -->
+
+    <!-- MENU LIST -->
+    <string name="menu_appointment">Book Appointment</string>
+    <string name="menu_doctor_info">Doctor Information</string>
+    <string name="menu_ask_doct">Ask to Doctor</string>
+    <string name="menu_get_contact">Get Contact Us</string>
+    <string name="menu_tips">Health Tips</string>
+    <string name="menu_account">My Account</string>
+    <!-- END MENU LIST -->
+
+    <!-- Appointment -->
+    <string name="tab_morning">Morning</string>
+    <string name="tab_afternoon">Afternoon</string>
+    <string name="tab_evening">Evening</string>
+    <string name="clinic_fee">Clinic Fee</string>
+    <string name="patient_contact">Patient Contact Details</string>
+    <string name="health_tips">Health Tips</string>
+    <string name="total_amount">Total Charges</string>
+    <string name="tap_to_continue">Tap to continue</string>
+    <string name="confirm_n_book">Confirm and Book Appointment</string>
+    <string name="already_booked">Time Already Booked</string>
+    <string name="title_activity_doctor_info">DoctorInfoActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <!-- Appointment -->
+
+    <!-- Doctor Info -->
+    <string name="doctor_degree">Degree</string>
+    <string name="doctor_speciality">Speciality</string>
+    <string name="doctor_phone">Phone</string>
+    <string name="tab_aboutus">About Us</string>
+    <string name="tab_services">Services</string>
+    <string name="tab_photos">Photos</string>
+    <string name="tab_reviews">Reviews</string>
+    <string name="doctor_indo">Doctor:</string>
+    <string name="consultant_fees">Consultant Fees</string>
+
+    <string name="address">Address :</string>
+    <string name="phone">Phone :</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="add_review">Add Review</string>
+    <string name="send">Send</string>
+    <string name="valid_required_email">Email required</string>
+    <string name="valid_email">Input valid email</string>
+    <string name="valid_required_password">Password required</string>
+    <string name="valid_required_fullname">Fullname required</string>
+    <string name="valid_required_phone">Phone required</string>
+    <string name="valid_required_current_password">Required Current Password</string>
+    <string name="valid_required_new_password">Required New Password</string>
+    <string name="valid_not_match">Re Enter password not match</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="my_appointments">My Appointment</string>
+    <string name="update">Update</string>
+    <string name="profile_update_success">Profile Updated Successfully</string>
+
+    <string name="new_password">New Password</string>
+    <string name="cur_password">Current Password</string>
+    <string name="re_password">Re Enter Password</string>
+    <string name="cancel_confirmation">Are you sure to cancel appointment ?</string>
+    <string name="fire">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="our_services">Our Services</string>
+    <string name="clinic_photos">Clinic Photos</string>
+
+    <string name="material">Material</string>
+    <string name="method">Method</string>
+    <string name="en_language_preference">Language Preferances</string>
+    <string name="en_select_your_preferred_language">Choose your preference language</string>
+</resources>

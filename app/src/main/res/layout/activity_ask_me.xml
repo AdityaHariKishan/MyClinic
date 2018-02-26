@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ask_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.clinicapp.AskMeActivity">
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:divider="@null"
+        android:layout_above="@+id/linearLayout2" />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:divider="@null"
+        android:background="@color/colorPrimary"
+        android:id="@+id/linearLayout2">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAttachment"
+            android:textColor="@color/text_whilte"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_attach_pin"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:onClick="sendMessage"/>
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editChat"
+            android:background="@drawable/xml_textbox_bg"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSend"
+            android:text="@string/send"
+            android:textColor="@color/text_whilte"
+            android:background="@android:color/transparent"
+            android:onClick="sendMessage"/>
+    </LinearLayout>
+
+</RelativeLayout>
